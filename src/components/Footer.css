@@ -2,6 +2,9 @@
     align-items: center;
     text-align: center;
     padding: 24px;
+    background-color: #00050d;
+    width: 100%;
+    bottom: 0%;
 }
 
 .pv-logo {
@@ -11,21 +14,21 @@
     margin-bottom: 0.5em;
 }
 
-li {
+.footer li {
     display: inline;
     margin: 0.5em;
     font-size: 15px;
     padding: 4px;
 }
 
-a {
+.footer a {
     color: #79b8f3;
     transition: 0.2s;
     text-decoration: none;
     cursor: pointer;
 }
 
-a:hover {
+.footer a:hover {
     color: #81dafe;
 }
 

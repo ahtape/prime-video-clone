@@ -12,7 +12,10 @@ const requests = {
     requestRomance: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=romance`,
     requestDrama: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=drama`,
     requestDocumentary: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=documentaries`,
-    requestSciFi: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=scifi`
+    requestSciFi: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=scifi`,
+    requestKorean: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=korea`,
+    requestKids: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=kids`,
+    requestAnime: `https://api.themoviedb.org/3/search/movie?api_key=${key}&language=en-US&query=anime`
 };
 
 export default requests

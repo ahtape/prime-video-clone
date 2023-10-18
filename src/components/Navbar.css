@@ -12,8 +12,8 @@
 
 .navbar {
     width: 70%;
-    max-width: 62em;
-    height: 3em;
+    max-width: 75em;
+    height: 3.5em;
     display: flex;
     align-items: stretch;
     justify-content: space-between;
@@ -31,14 +31,14 @@
 }
 
 .prime-video-logo {
-    height: 1.2em;
+    height: 1.5em;
     width: auto;
     padding: 0.9em;
     margin-right: 1em;
     cursor: pointer;
 }
 
-button{
+.navbar button{
     cursor: pointer;
     font-weight: bold;
     font-size: 18px;
@@ -50,14 +50,7 @@ button{
     border: none;
 }
 
-.center button:first-child {
-    color: #ffffff;
-    border-bottom: solid;
-    border-width: 4px;
-    border-color: #ffffff;
-}
-
-button:hover {
+.navbar button:hover {
     color: #ffffff;
     background-color: #191e25;
     transition: color 0.2s ease-in-out;
@@ -108,3 +101,11 @@ button:hover {
     width: auto;
     margin: 0 0 0 1em;
 }
+
+/* 
+.center button:first-child {
+    color: #ffffff;
+    border-bottom: solid;
+    border-width: 4px;
+    border-color: #ffffff;
+} */

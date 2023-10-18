@@ -11,7 +11,7 @@ const Home = () => {
   return (
     <>
     <Navbar />
-    <Carousel fetchURL={requests.requestPopular}/>
+    <Carousel rowID='1' fetchURL={requests.requestPopular}/>
     <TopRow rowID='2' title='Amazon Originals and Exclusives' fetchURL={requests.requestTopRated}/>
     <Row1 rowID='3' title='Recommended movies' fetchURL={requests.requestUpcoming}/>
     <Row rowID='4' title='Horror movies' fetchURL={requests.requestHorror}/>
@@ -22,7 +22,7 @@ const Home = () => {
     <Row rowID='9' title='Romance movies' fetchURL={requests.requestRomance}/>
     <Row rowID='10' title='Drama movies' fetchURL={requests.requestDrama}/>
     <Row rowID='12' title='Documentary movies' fetchURL={requests.requestDocumentary}/>
-    <Row rowID='12' title='Science fiction movies' fetchURL={requests.requestSciFi}/>
+    <Row rowID='13' title='Science fiction movies' fetchURL={requests.requestSciFi}/>
     <Footer />
     </>
   )

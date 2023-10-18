@@ -17,17 +17,17 @@
     margin-right: 2em;
 }
 
-.see-more {
+.see-more,
+.see-more p {
+    font-size: 20px;
+    font-weight: 500;
     display: flex;
     align-items: center;
     flex-grow: 0;
     color: #ffffff;
     background: none;
-}
-
-.see-more:hover {
-    color: #ffffff;
-    background: none;
+    border: none;
+    cursor: pointer;
 }
 
 .slider-container {

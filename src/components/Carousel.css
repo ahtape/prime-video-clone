@@ -1,6 +1,6 @@
 .embla {
     overflow: hidden;
-    padding-top: 3em;
+    padding-top: 4em;
     margin-bottom: 4em;
   }
 
@@ -19,5 +19,5 @@
 
 .embla__slide img {
     border-radius: 10px;
-    margin-left: 4.1%;
+    margin-left: 6%;
 }

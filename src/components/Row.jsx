@@ -28,7 +28,7 @@ const Row = ({title, fetchURL, rowID}) => {
             <h2 className='prime-text'>Prime</h2>
             <h2 className='title-text'>{title}</h2>
             <button className='see-more'>
-                <h2>See more</h2>
+                <p>See more</p>
                 <MdKeyboardArrowRight size={30} color='white' />
             </button>
         </div>

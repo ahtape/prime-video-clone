@@ -2,8 +2,10 @@ import React, { useState } from 'react'
 import { HiSearch } from "react-icons/hi"
 import { MdKeyboardArrowDown } from "react-icons/md"
 import './Navbar.css'
+import { useNavigate } from 'react-router-dom'
 
 const Navbar = () => {
+  const navigate = useNavigate()
 
   const [scroll, setScroll] = useState(false)
 
@@ -21,17 +23,17 @@ const Navbar = () => {
     <div className={scroll ? 'navbar-container navbar-container__scroll' : 'navbar-container'}>
       <div className={scroll ? 'navbar navbar__scroll' : 'navbar'}>
         <a href="#">
-          <img src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png" className='prime-video-logo' alt="prime-video-logo" />
+          <img src="https://m.media-amazon.com/images/G/01/digital/video/web/Logo-min.png" className='prime-video-logo' alt="prime-video-logo"  onClick={() => navigate('/')}/>
         </a>
         <div className='center'>
-          <button>Home</button>
-          <button>Movies</button>
-          <button>TV Shows</button>
-          <button className='categories'>
+          <button onClick={() => navigate('/')}>Home</button>
+          <button onClick={() => navigate('/movies')}>Movies</button>
+          <button onClick={() => navigate('/tvshows')}>TV Shows</button>
+          <button className='categories' onClick={() => navigate('/categories')}>
               Categories
               <MdKeyboardArrowDown className='down-arrow' size={25}/>
           </button>
-          <button>My Stuff</button>
+          <button onClick={() => navigate('/mystuff')}>My Stuff</button>
         </div>
         <div className='right'>
               <button className='search'><HiSearch size={28} /></button>
