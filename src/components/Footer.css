@@ -1,0 +1,34 @@
+.footer {
+    align-items: center;
+    text-align: center;
+    padding: 24px;
+}
+
+.pv-logo {
+    width: 100px;
+    display: block;
+    margin: auto;
+    margin-bottom: 0.5em;
+}
+
+li {
+    display: inline;
+    margin: 0.5em;
+    font-size: 15px;
+    padding: 4px;
+}
+
+a {
+    color: #79b8f3;
+    transition: 0.2s;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+a:hover {
+    color: #81dafe;
+}
+
+.copyright-text {
+    color: #7997a4;
+}

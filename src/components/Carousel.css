@@ -1,0 +1,23 @@
+.embla {
+    overflow: hidden;
+    padding-top: 3em;
+    margin-bottom: 4em;
+  }
+
+.embla__viewport {
+    display: flex;
+}
+
+.embla__container {
+    display: flex;
+}
+
+.embla__slide {
+    flex: 0 0 100%;
+    min-width: 0;
+}
+
+.embla__slide img {
+    border-radius: 10px;
+    margin-left: 4.1%;
+}
