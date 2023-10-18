@@ -3,7 +3,7 @@ import './Genres.css'
 
 const Genres = () => {
   return (
-    <>
+    <div className='content'>
       <h2 className='genreh2'>Genres</h2>
       <div className='genres'>
         <div className='img'>
@@ -67,7 +67,7 @@ const Genres = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   )
 }
 
