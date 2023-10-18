@@ -1,5 +1,5 @@
 
-This project is a clone of [Prime Video](https://www.primevideo.com/) user interface and the website can be previewed in [https://primevideo-clonn.firebaseapp.com/](https://primevideo-clonn.web.app/)
+This project is a clone of [Prime Video](https://www.primevideo.com/) user interface and the website can be previewed in https://primevideo-clonn.web.app/
 
 
 # How to Run
