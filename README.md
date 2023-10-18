@@ -30,4 +30,4 @@ This project is a case study from Google Developer Students Club, which is a req
 
 # References
 
-The references for this project can be found in [References.txt](Refereces.txt)
+The references for this project can be found in [References.txt](Refereces.md)
